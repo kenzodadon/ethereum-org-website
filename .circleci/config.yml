@@ -4,7 +4,7 @@ orbs:
 
 jobs:
   build:
-    docker:.circleci/config.yml
+    docker:.
       - image: circleci/ruby:2.6.3-stretch-node
     executor: ruby/default
     steps:
